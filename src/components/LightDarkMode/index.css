@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.bg-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dark-card {
+  text-align: center;
+  padding: 20px;
+  background-color: #000000;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #000000;
+}
+.light-card {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #000000;
+}
+
+.dark-heading {
+  text-align: center;
+  font-family: 'roboto';
+  color: #ffffff;
+}
+.light-heading {
+  text-align: center;
+  font-family: 'roboto';
+  color: #000000;
+}
+.custom-btn {
+  width: 100px;
+  height: 40px;
+}
